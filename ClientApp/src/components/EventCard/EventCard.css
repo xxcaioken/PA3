@@ -1,0 +1,34 @@
+
+.card-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 40px;
+    width: 100%;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card h3 {
+    margin-bottom: 8px;
+    color: #333;
+  }
+  
+  .card p {
+    color: #666;
+  }
+
+  .buttonStyled{
+    background-color: black;
+  }
+
+  buttonStyled:hover {
+    background-color: black;
+  }

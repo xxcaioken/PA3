@@ -1,0 +1,37 @@
+.title {
+    height: fit-content;
+    min-height: 50px;
+    width: 80%;
+    background-color: #45a049;
+    text-align: center;
+
+    
+}
+
+.titleText {
+    top: 20%;
+    position: relative;
+}
+
+.description {
+    height: 460px;
+    width: 80%;
+    background-color: white;
+    text-align: center;
+    box-shadow: 0 0 0 0.01rem white, 0 0 0 0rem black;
+
+    
+}
+.descriptionText {
+    top: 20%;
+    position: relative;
+
+}
+.okButton{
+    background-color: black;
+    color: white;
+    border-radius: 20%;
+    position: relative;
+    margin-left: 80%;
+    margin-top: 175px;
+}
