@@ -1,4 +1,5 @@
-// import Contact from "./components/Contact/";
+
+import Contact from "./components/ContactScreen/Contact";
 import EventCard from "./components/EventCard/EventCard";
 import AddForm from "./components/Form/AddForm";
 import { Home } from "./components/Home";
@@ -15,12 +16,11 @@ const AppRoutes = [
   {
     path:'/add',
     element: <AddForm></AddForm>
+  },
+  {
+    path:'/contact',
+    element: <Contact></Contact>
   }
-  // ,
-  // {
-  //   path:'/contact',
-  //   element: <Contact></Contact>
-  // }
 ];
 
 export default AppRoutes;

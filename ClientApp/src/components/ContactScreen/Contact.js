@@ -1,13 +1,13 @@
-import React from 'react';
+/* eslint-disable no-undef */
 import './Contact.css'; 
+import React from 'react';
 
-const Contact = React.memo(() => {
+
+const Contact = (() => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Add your logic to handle form submission (e.g., send email)
-    console.log('Form submitted');
-    // Optionally, you can clear the form fields after submission
+    Alert('Form submitted');
     e.target.reset();
   };
 
