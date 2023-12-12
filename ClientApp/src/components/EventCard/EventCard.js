@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './EventCard.css';
 
-const EventCard = React.memo((props) => {
+const EventCard = React.memo(() => {
     const [events, setEvents] = useState([]);
     const [loading, setLoading] = useState(true);
 
@@ -34,8 +34,8 @@ const EventCard = React.memo((props) => {
             });
             if (response.ok)
                 alert('Congrats you removed an event');
-
-        } catch (error) {
+                window.location.reload();
+            } catch (error) {
             console.error('Error adding event:', error);
         }
     };

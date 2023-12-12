@@ -1,5 +1,5 @@
 import React from 'react';
-import './Us.css'; // Import your CSS file for styling
+import './Us.css';
 
 const Us = () => {
   return (

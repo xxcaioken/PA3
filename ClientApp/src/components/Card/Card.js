@@ -8,7 +8,7 @@ const Card = React.memo((props) => {
 
     return (
         mustToSee ? (
-            <div style={{ marginInline: '20%' ,position:'fixed'}}>
+            <div style={{ marginInline: '25%' ,position:'fixed'}}>
                 <div className='title'>
                     <span className='titleText'>{props.title}</span>
                 </div>
